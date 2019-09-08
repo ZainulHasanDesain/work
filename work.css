@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Fonts */
+
+/* mY css */
+
+
+
+/* navbar */
+
+
+.nav-item{
+    color: white;
+}
+
+.navbar-brand img{
+    width: 50%;
+}
+
+.tombol{  
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white;
+}
+
+.warna{
+    color: white;
+}
+
+.navbar-brand img{
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+/* akhir Navbar */
+
+/* Jumbotron */
+
+.jumbotron .display-4{
+  color: rgba(255,255,255,.8);
+  
+  margin-top: 150px;
+}
+
+.jumbotron .display-4{
+font-size: 7vw;
+margin-bottom: 30px;
+}
+
+.display-4 span{
+  color: white;
+  font-weight: 500;
+}
+
+.jumbotron{
+  background-image:linear-gradient(to bottom, rgba(0,0,0,.7)70%,rgba(255,255,255,.5)) ,url(img/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.tombol{
+  font-size:2vw;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+/* akhir jumbotron */
+
+.info-panel{
+  background-color: white;
+  margin-top:-120px;
+  box-shadow: 0 3px 20px rgba(0,0,0,.5);
+  border-radius: 12px;
+  padding: 30px;
+}
+
+/* Panel */
+.info-panel img{
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.info-panel h2{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* akhir panel */
+
+
+/* Konten2 */
+.work{
+  margin-top: 80px;
+}
+
+.work img{
+  width: 100%;
+
+}
+
+.work h1{
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.work span{
+  font-weight: bold;
+}
+
+.work p{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+/* konten2 */
+
+/* Bekerja */
+.bekerja p{
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+/* akhir bekerja */
+
+/* Foto */
+
+.c{
+  background-color: blue;
+  
+}
+
+.k{
+  background-color: aqua;
+}
+
+/* Akhir foto */
+/* DESKTOP */
+@media (min-width: 992px){
+  .navbar-brand img{
+    filter: none;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.nav-link:hover::after{
+        content: "";
+        display: block;
+        border-bottom: 3px solid blue;
+        margin:auto;
+        width: 50%;
+       padding-bottom: 5px;
+       margin-bottom: -8px;
+}
+
+    .jumbotron{
+        margin-top: -80px;
+        height: 640px;
+    }
+
+    .info-panel img{
+      width: 80px;
+      height: 80px;
+      
+    }
+
+.jumbotron .display-4{
+  font-size: 80px;
+}
+    
+.tombol{
+  font-size:1.2vw;
+    }
+
+}
